@@ -7,6 +7,7 @@ import rsa
 import os
 
 key=rsa.newkeys(1028)
+a=12
 
 privatekey = key[1]#
 publickey = key[0]#
