@@ -6,7 +6,8 @@ import collections
 import rsa
 import os
 
-key=rsa.newkeys(1028)
+key=rsa.newkeys(1034)
+b=14
 
 privatekey = key[1]#
 publickey = key[0]#
